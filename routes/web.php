@@ -17,4 +17,13 @@ use Illuminate\Support\Facades\Route;
 //     return view('layouts.main');
 // });
 
-Route::get('/', 'DefaultController@index');
+Route::get('/', 'DefaultController@index')->name('index');
+Route::get('/products', 'DefaultController@products')->name('products');
+Route::get('/contact-us', 'DefaultController@contact')->name('contact');
+Route::post('/image/save', 'DefaultController@imageSave')->name('save.image');
+Route::get('/about', 'DefaultController@about')->name('about');
+
+Route::get('/login', 'LoginController@login')->name('login');
+Route::get('/register', 'LoginController@register')->name('register');
+Route::post('/register/save', 'LoginController@createUser')->name('register.save');
+Route::get('/log-out', 'LoginController@logOut')->name('log-out');

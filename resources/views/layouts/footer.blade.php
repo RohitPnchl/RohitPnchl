@@ -6,11 +6,11 @@
             <div class="col-lg-3 col-md-2 col-sm-12 col-xs-12">
                 <div class="single-footer-widget pd-bottom">
                     <div class="footer-logo" align="center">
-                        <a href="index-2.html">
-                          <img src="images/logo.png" width="143" height="137">                        </a>                    </div>
-                    <div class="interrio-info">
-                        <p style="color:#FFFFFF;"><span>Prem Steel Works</span> We have gained success in the market by manufacturing a premium quality range of Wrought Iron Doorways, Wrought Iron Staircase Railing, Wrought Iron Parapet Railing, etc. </p>
+                        <a href="{{ route('index') }}">
+                          <img src="images/new-logo.png" width="143" height="137">
+                        </a>
                     </div>
+
                     
                 </div>
             </div>
@@ -133,7 +133,7 @@
                                 <span class="flaticon-building"></span>
                             </div>
                             <div class="text-holder">
-                                <p>  Karnal, Delhi-132001</p>
+                                <p>  Karnal, Haryana-132001</p>
                             </div>
                         </li>
                         
@@ -205,32 +205,3 @@
     </div>
 </footer>   
 <!--End footer area-->
-<!--Start footer bottom area-->   
-<section class="footer-bottom-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                <div class="copyright-text">
-                    <p>&copy; 2021 PREM STEEL WORKS | Powered by <a href="https://www.itnucleus.com/" target="_blank">IT NUCLEUS</a></p>
-                </div>
-            </div>
-            <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
-                <div class="footer-menu">
-                    <ul>
-                       <li><a href="https://www.facebook.com/vaishnusteelworks/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a href="https://www.instagram.com/vaishnusteelworks_official/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                           <li><a href="https://business.google.com/v/vaishnu-steel-works/09532374278084029641/4900/_?caid=12758172230&amp;agid=129517648748&amp;gclid=CjwKCAjwqIiFBhAHEiwANg9szgtVwdbAbnMxgUiSBAMNGSEXnSFnrSxnvBVsWlUQVxj0oUUU7221EBoCiw0QAvD_BwE&amp;gclid=CjwKCAjwqIiFBhAHEiwANg9szgtVwdbAbnMxgUiSBAMNGSEXnSFnrSxnvBVsWlUQVxj0oUUU7221EBoCiw0QAvD_BwE" target="_blank"><i class="fa fa-google" aria-hidden="true"></i></a></li> 
-                           
-                            <li><a href="https://www.justdial.com/Ludhiana/Vaishnu-Steel-Works-Opposite-Ansal-Plaza-Civil-Lines/0161PX161-X161-1234587967J6K4Z4-DC_BZDET" target="_blank"><img src="jd.png"  border="0"/></a></li>
-                                <li><a href="https://api.whatsapp.com/send?phone=919872917148&amp;fbclid=IwAR1WRmCiuwKJtBFXMFIRz9CJFyQrxCgSrhs2HBYidJvhq-QoXmcOqX22Vsw" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
-                                 <li><a href="https://www.indiamart.com/vaishnusteelworks/?fbclid=IwAR3oIwAyLZcCt1sRUKtZTrS4MY3NicM1nVSH3AwPgCcE2XcpaYOtiaBnSLQ" target="_blank">
-                           <img src="india.png"  border="0"/></a></li>
-                      
-
-                    </ul>
-                </div>
-          </div>
-        </div>    
-    </div>
-</section>    
-<!--End footer bottom area-->

@@ -1,6 +1,9 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Models\User;
+use App\Models\Products;
+use Session;
 
 use Illuminate\Http\Request;
 
@@ -11,74 +14,62 @@ class DefaultController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        return view('steal-works.index');
+        $user = User::where('email', $request->email)->where('password', md5($request->password))->first();
+        if ($user) {
+            Session::put('user', $user);
+        }
+
+        return view('steel-works.index', compact('user'));
     }
 
     /**
-     * Show the form for creating a new resource.
+     * Show the products page for new resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function products()
     {
-        //
+        $products = Products::orderBy('id', 'desc')->get();
+
+        return view('steel-works.products', compact('products'));
     }
 
     /**
-     * Store a newly created resource in storage.
+     * Show the contact page.
      *
-     * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function contact()
     {
-        //
+        return view('steel-works.contact');
     }
 
     /**
-     * Display the specified resource.
+     * Show the contact page.
      *
-     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function imageSave(Request $request)
     {
-        //
+        $file = $request->file('product');
+        $filename = time() . '.' . $request->file('product')->extension();
+        $doc_name = $file->getClientOriginalName();
+        $filePath = storage_path('app/public') . '/products/';
+        $file->move($filePath, $filename);
+
+        $product = Products::create([
+            'product'       => $doc_name,
+            'product_name'  => $filename,
+            'path'          => '/products/'. $filename
+        ]);
+
+        return redirect()->route('products');
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
+    public function about()
     {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($id)
-    {
-        //
+        return view('steel-works.about');
     }
 }

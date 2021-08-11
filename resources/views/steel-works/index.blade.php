@@ -2,7 +2,7 @@
 
 @section('content')
 
-<!--End header area-->     
+<!--End header area-->
 
 <!--Start rev slider wrapper-->
 <section class="rev_slider_wrapper">
@@ -100,119 +100,119 @@
         <ul>
            <li data-transition="slidingoverlayleft">
                 <img src="images/slides/1.jpg"  style="height:400px;"  alt="" width="" height="400" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1" >
-                
-                <div class="tp-caption  tp-resizeme" 
-                    data-x="left" data-hoffset="0" 
-                    data-y="top" data-voffset="205" 
-                    data-transform_idle="o:1;"         
-                    data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;" 
-                    data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" 
-                    data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" 
-                    data-splitin="none" 
+
+                <div class="tp-caption  tp-resizeme"
+                    data-x="left" data-hoffset="0"
+                    data-y="top" data-voffset="205"
+                    data-transform_idle="o:1;"
+                    data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;"
+                    data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                    data-mask_in="x:[100%];y:0;s:inherit;e:inherit;"
+                    data-splitin="none"
                     data-splitout="none"
                     data-start="700">
                     <div class="slide-content-box">
                     The Studio of Railing & Doorways
-                    
+
                         <h1>Give Life For<br>Your Dream <span>Home</span></h1>
                         <h3>The Studio  <span>of Railing & </span>  Doorways</h3>
                     </div>
                 </div>
-                <div class="tp-caption tp-resizeme" 
-                    data-x="left" data-hoffset="0" 
-                    data-y="top" data-voffset="475" 
-                    data-transform_idle="o:1;"                         
-                    data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                    data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"                     
-                    data-splitin="none" 
-                    data-splitout="none" 
+                <div class="tp-caption tp-resizeme"
+                    data-x="left" data-hoffset="0"
+                    data-y="top" data-voffset="475"
+                    data-transform_idle="o:1;"
+                    data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+                    data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                    data-splitin="none"
+                    data-splitout="none"
                     data-responsive_offset="on"
                     data-start="2300">
                     <div class="slide-content-box">
                         <div class="button">
-                            <a class="thm-btn bg-cl-1" href="#">Our Services</a>     
+                            <a class="thm-btn bg-cl-1" href="#">Our Services</a>
                         </div>
                     </div>
                 </div>
-                <div class="tp-caption tp-resizeme" 
-                    data-x="left" data-hoffset="199" 
-                    data-y="top" data-voffset="475" 
-                    data-transform_idle="o:1;"                         
-                    data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                    data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"                     
-                    data-splitin="none" 
-                    data-splitout="none" 
+                <div class="tp-caption tp-resizeme"
+                    data-x="left" data-hoffset="199"
+                    data-y="top" data-voffset="475"
+                    data-transform_idle="o:1;"
+                    data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+                    data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                    data-splitin="none"
+                    data-splitout="none"
                     data-responsive_offset="on"
                     data-start="2600">
                     <div class="slide-content-box">
                         <div class="button">
-                            <a class="thm-btn bdr" href="#">Latest Projects</a>     
+                            <a class="thm-btn bdr" href="#">Latest Projects</a>
                         </div>
                     </div>
                 </div>
             </li>
             <li data-transition="slidingoverlayleft">
                 <img src="images/slides/2.jpg"  alt="" width=""  style="height:400px;" height="400" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1" >
-                
+
                 <div class="tp-caption tp-resizeme"
-                    data-x="right" data-hoffset="0" 
-                    data-y="top" data-voffset="205" 
-                    data-transform_idle="o:1;"         
-                    data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;" 
-                    data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" 
-                    data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" 
-                    data-splitin="none" 
-                    data-splitout="none"  
+                    data-x="right" data-hoffset="0"
+                    data-y="top" data-voffset="205"
+                    data-transform_idle="o:1;"
+                    data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;"
+                    data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                    data-mask_in="x:[100%];y:0;s:inherit;e:inherit;"
+                    data-splitin="none"
+                    data-splitout="none"
                     data-start="500">
                     <div class="slide-content-box">
                         <h1>Being the best<br>decorators</h1>
                         <h3>You can work with us from anywhere of the <span>India</span></h3>
                     </div>
                 </div>
-                <div class="tp-caption tp-resizeme" 
-                    data-x="right" data-hoffset="209" 
-                    data-y="top" data-voffset="475" 
-                    data-transform_idle="o:1;"                         
-                    data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                    data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"                     
-                    data-splitin="none" 
-                    data-splitout="none" 
+                <div class="tp-caption tp-resizeme"
+                    data-x="right" data-hoffset="209"
+                    data-y="top" data-voffset="475"
+                    data-transform_idle="o:1;"
+                    data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+                    data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                    data-splitin="none"
+                    data-splitout="none"
                     data-responsive_offset="on"
                     data-start="2300">
                     <div class="slide-content-box">
                         <div class="button">
-                            <a class="thm-btn bdr" href="#">Latest Projects</a>     
+                            <a class="thm-btn bdr" href="#">Latest Projects</a>
                         </div>
                     </div>
                 </div>
-                <div class="tp-caption tp-resizeme" 
-                    data-x="right" data-hoffset="436" 
-                    data-y="top" data-voffset="475" 
-                    data-transform_idle="o:1;"                         
-                    data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                    data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"                     
-                    data-splitin="none" 
-                    data-splitout="none" 
+                <div class="tp-caption tp-resizeme"
+                    data-x="right" data-hoffset="436"
+                    data-y="top" data-voffset="475"
+                    data-transform_idle="o:1;"
+                    data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+                    data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                    data-splitin="none"
+                    data-splitout="none"
                     data-responsive_offset="on"
                     data-start="2600">
                     <div class="slide-content-box">
                         <div class="button">
-                            <a class="thm-btn bg-cl-1" href="#">Our Services</a>     
+                            <a class="thm-btn bg-cl-1" href="#">Our Services</a>
                         </div>
                     </div>
-                </div>    
+                </div>
             </li>
             <li data-transition="slidingoverlayleft">
                 <img src="images/slides/3.jpg"  alt="" width="" style="height:400px;" height="400" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1" >
-                
-                <div class="tp-caption  tp-resizeme" 
-                    data-x="left" data-hoffset="0" 
-                    data-y="top" data-voffset="205" 
-                    data-transform_idle="o:1;"         
-                    data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;" 
-                    data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" 
-                    data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" 
-                    data-splitin="none" 
+
+                <div class="tp-caption  tp-resizeme"
+                    data-x="left" data-hoffset="0"
+                    data-y="top" data-voffset="205"
+                    data-transform_idle="o:1;"
+                    data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;"
+                    data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                    data-mask_in="x:[100%];y:0;s:inherit;e:inherit;"
+                    data-splitin="none"
                     data-splitout="none"
                     data-start="700">
                     <div class="slide-content-box">
@@ -220,40 +220,40 @@
                         <h3>Why Over <span>1,000,000+</span> Customers Have Choosen </h3>
                     </div>
                 </div>
-                <div class="tp-caption tp-resizeme" 
-                    data-x="left" data-hoffset="0" 
-                    data-y="top" data-voffset="475" 
-                    data-transform_idle="o:1;"                         
-                    data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                    data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"                     
-                    data-splitin="none" 
-                    data-splitout="none" 
+                <div class="tp-caption tp-resizeme"
+                    data-x="left" data-hoffset="0"
+                    data-y="top" data-voffset="475"
+                    data-transform_idle="o:1;"
+                    data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+                    data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                    data-splitin="none"
+                    data-splitout="none"
                     data-responsive_offset="on"
                     data-start="2300">
                     <div class="slide-content-box">
                         <div class="button">
-                            <a class="thm-btn bg-cl-1" href="#">Our Services</a>     
+                            <a class="thm-btn bg-cl-1" href="#">Our Services</a>
                         </div>
                     </div>
                 </div>
-                <div class="tp-caption tp-resizeme" 
-                    data-x="left" data-hoffset="199" 
-                    data-y="top" data-voffset="475" 
-                    data-transform_idle="o:1;"                         
-                    data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                    data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"                     
-                    data-splitin="none" 
-                    data-splitout="none" 
+                <div class="tp-caption tp-resizeme"
+                    data-x="left" data-hoffset="199"
+                    data-y="top" data-voffset="475"
+                    data-transform_idle="o:1;"
+                    data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+                    data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                    data-splitin="none"
+                    data-splitout="none"
                     data-responsive_offset="on"
                     data-start="2600">
                     <div class="slide-content-box">
                         <div class="button">
-                            <a class="thm-btn bdr" href="#">Latest Projects</a>     
+                            <a class="thm-btn bdr" href="#">Latest Projects</a>
                         </div>
                     </div>
                 </div>
             </li>
-            
+
         </ul>
     </div>
 </section>-->
@@ -299,7 +299,7 @@
                         <img src="images/icon/play-btn.png" alt="Play Button" />
                       </a>
                       <!--   https://fb.watch/5D3jA0RQgM/
-                                 
+
                                   <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fvaishnusteelworks%2Fvideos%2F1867330260112107%2F&show_text=false&width=476" width="476" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>-->
                     </div>
                   </div>
