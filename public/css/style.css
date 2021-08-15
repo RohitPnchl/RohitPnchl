@@ -147,18 +147,18 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   font-size: 14px;
   font-weight: 700;
   display: inline-block;
-  border: 2px solid #b3791e;
+  border: 2px solid #1a467d;
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
   transition: all 500ms ease;
   line-height: 14px;
 }
 .bg-cl-1{
-  background: #b3791e;  
+  background: #1a467d;  
 }
 .thm-btn:hover{
   background: #141414;  
-  border: 2px solid #b3791e;
+  border: 2px solid #1a467d;
   color: #fff;
 }
 
@@ -178,7 +178,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   margin: 0;
 }
 .sec-title h2 span{
-  color: #60c859;
+  color: #1a467d;
 }
 .sec-title span.decor {
   background: #b3791e none repeat scroll 0 0;
@@ -906,12 +906,16 @@ padding: 30px 15px 29px 0;  position: relative;
 ***/
 .welcome-area {
   padding-bottom: 60px;
-  padding-top: 30px;
+  padding-top: 50px;
 }
 .welcome-area .text-holder { }
+.welcome-area .text-holder p { 
+  font-size: 16px;
+  margin-top: 10px;
+}
 .welcome-area .text-holder h3{
   color: #252525;
-  font-size: 22px;
+  font-size: 25px;
   font-weight: 500;
   line-height: 28px;
   margin: 0 0 0px;
@@ -938,7 +942,7 @@ padding: 30px 15px 29px 0;  position: relative;
   top: 10px;
 }
 .welcome-area .text-holder .bottom .title h3 span{
-  color: #b3791e;
+  color: #1a467d;
   font-family: "OilBats";
   line-height: 30px;
   margin-top: 5px;
@@ -1046,6 +1050,9 @@ padding: 30px 15px 29px 0;  position: relative;
   display: block;
   overflow: hidden;
   position: relative; 
+  text-align: center;
+  background-color: white;
+  padding: 15px;
 }
 .single-service-item .img-holder img{
   -webkit-transform: scale(1);
@@ -1053,6 +1060,7 @@ padding: 30px 15px 29px 0;  position: relative;
   -webkit-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
   /*width: 100%;    */
+  max-height: 240px;
 }
 .single-service-item .img-holder .overlay .box .content a i{
   background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
@@ -1083,7 +1091,7 @@ padding: 30px 15px 29px 0;  position: relative;
   
 }
 .single-service-item .text-holder h3 {
-  color: #b3791e;
+  color: #1a467d;
   font-size: 20px;
   font-weight: 500;
   line-height: 28px;
@@ -1094,7 +1102,7 @@ padding: 30px 15px 29px 0;  position: relative;
   color: #fff;
 }
 .single-service-item .text-holder p{
-  color: #c1c1c1;
+  color: #919191;
 }
 
 
@@ -2189,7 +2197,7 @@ padding: 30px 15px 29px 0;  position: relative;
   z-index: 1;  
 }
 .choose-area::before {
-  background: rgba(0, 0, 0, 0.85) none repeat scroll 0 0;
+  /*background: rgba(0, 0, 0, 0.85) none repeat scroll 0 0;*/
   content: "";
   height: 100%;
   left: 0;
@@ -2200,9 +2208,6 @@ padding: 30px 15px 29px 0;  position: relative;
 }
 .choose-area .sec-title {
   padding-bottom: 42px;
-}
-.choose-area .sec-title h2 {
-  color: #ffffff;
 }
 .choose-area .sec-title .border {
   background: #b3791e none repeat scroll 0 0;
@@ -2217,7 +2222,7 @@ padding: 30px 15px 29px 0;  position: relative;
   position: relative;
 }
 .choose-area .single-item .icon-holder {
-  background: #b3791e none repeat scroll 0 0;
+  background: #1a467d none repeat scroll 0 0;
   height: 70px;
   left: 0;
   position: absolute;
@@ -2230,11 +2235,10 @@ padding: 30px 15px 29px 0;  position: relative;
   color: #ffffff;
   display: block;
   font-size: 40px;
-  padding: 21px 0;
+  padding: 9px 0;
 }
 .choose-area .single-item .text-holder {}
 .choose-area .single-item .text-holder h3 {
-  color: #ffffff;
   font-size: 20px;
   font-weight: 500;
   margin: 0 0 10px;
@@ -2966,7 +2970,6 @@ padding: 30px 15px 29px 0;  position: relative;
     margin-top: 25px;
 }
 
-
 @media only screen and (min-width: 320px) {
   .carousel-inner .slider-image {
     height: 200px !important;
@@ -3008,5 +3011,49 @@ padding: 30px 15px 29px 0;  position: relative;
   .carousel-inner {
     height: 500px !important;
     width: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .top-left {
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    color: white;
+    font-size: 30px;
+    font-family: serif;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  .top-left {
+      position: absolute;
+      top: 150px;
+      left: 15px;
+      color: white;
+      font-size: 45px;
+      font-family: serif;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .top-left {
+      position: absolute;
+      top: 140px;
+      left: 25px;
+      color: white;
+      font-size: 65px;
+      font-family: serif;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .top-left {
+    position: absolute;
+    top: 150px;
+    left: 36px;
+    color: white;
+    font-size: 80px;
+    font-family: serif;
+
   }
 }
