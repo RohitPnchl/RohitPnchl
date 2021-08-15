@@ -1,27 +1,9 @@
 @extends('layouts.main')
 
 @section('content')
-<section class="breadcrumb-area" style="background-image: url(images/breadcrumb/breadcrumb-bg.jpg);">
+<section class="breadcrumb-area" style="background-image: url(images/login-bg.png);">
 	<div class="container-fluid text-center">
 		<h1>Contact Us </h1>
-		<div class="breadcrumb-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="left pull-left">
-                            <ul>
-                                <li><a href="index-2.html">Home</a></li>
-                                <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
-                                <li>Contact Us </li>
-                            </ul>
-                        </div>
-                        <div class="right pull-right">
-                            <a href="#"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>Get a Quote</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-		</div>
 	</div>
 </section>
 <!--End breadcrumb area-->
@@ -33,46 +15,38 @@
             <div class="col-lg-6 col-md-5 col-sm-6 col-xs-12">
                 <div class="contact-info">
                     <div class="title">
-                        <h3>Office</h3>
+                        <h3><strong>WORK SHOP</strong></h3>
                     </div>
                     <ul class="contact-address">
                         <li>
                             <div class="icon-holder">
-                                <span class="flaticon-building"></span>
+                                <i class="fa fa-map-marker contact-icons"></i>
                             </div>
                             <div class="text-holder">
                                 <p>  Karnal, Haryana-132001</p>
-                                <p>Prithvi Vihar, Meerut Rd, near Food Supply Office, Karnal - 132001, Haryana</p>
+                                <p>Prithvi Vihar, Near Food Supply Office Meerut Road,  Karnal - 132001, Haryana</p>
                             </div>
                         </li>
                         <li>
                             <div class="icon-holder">
-                                <span class="flaticon-technology"></span>
+                                <i class="fa fa-phone contact-icons"></i>
                             </div>
                             <div class="text-holder" style="font-size:14px;">
                                 <p style="font-size:14px;">9466096959 - Mr. Satish Panchal <!--(CEO)--><br />9466389976 - Mr. Devinder Panchal  <!--(MD)--></p>
                             </div>
                         </li>
                         <li>
-                            <div class="icon-holder">
-                                <span class="flaticon-new-email-outline"></span>
+                            <div class="icon-holder mail-holder">
+                                <i class="fa fa-envelope contact-icons-mail"></i>
                             </div>
                             <div class="text-holder">
-                                <p> <a href="mailto:premsteelworks@gmail.com" style="color:#000;">premsteelworks@gmail.com</a><br />
-</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="icon-holder">
-                                <span class="flaticon-clock"></span>
-                            </div>
-                            <div class="text-holder">
-                                <p>www.vaishnusteelworks.com</p>
+                                <p> <a href="mailto:premengineeringwork@gmail.com" style="color:#000;">premengineeringwork@gmail.com</a><br />
+                                </p>
                             </div>
                         </li>
                     </ul>
                     <div class="view-on-map">
-                        <a href="https://goo.gl/maps/Z3bUQyvVfp4aEwb88" target="_blank">View On Map<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                        <a href="https://maps.google.com/maps?ll=29.665436,77.014518&amp;z=15&amp;t=m&amp;hl=en&amp;gl=US&amp;mapclient=embed&amp;cid=12773348479136994738" target="_blank">View On Map<i class="fa fa-angle-right" aria-hidden="true"></i></a>
                     </div>
                 </div>
             </div>

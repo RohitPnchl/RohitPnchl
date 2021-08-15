@@ -36,6 +36,11 @@ class LoginController extends Controller
      */
     public function createUser(Request $request)
     {
+        $request->validate([
+            'email' => 'required|unique:users',
+            'password' => 'required'
+        ]);
+
         User::updateOrCreate([
             'email' 	=> $request->email,
         ],[

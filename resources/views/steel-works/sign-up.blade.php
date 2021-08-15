@@ -2,14 +2,14 @@
 
 @section('content')
 
-<div class="container-fluid" style="background: url(Images/login-bg.png); background-repeat: no-repeat; background-size: cover;">
+<div class="container-fluid">
 <div class="container">
 	<form action="{{ route('register.save') }}" class="form-horizontal" method="POST" style="padding: 10px; box-shadow: 3px 10px 7px #888888; margin: 50px 390px 90px 390px;">
 		<input type="hidden" name="_token" value="{{ csrf_token() }}">
 	<fieldset>
 
 		<!-- Form Name -->
-		<legend style="color: white;">SignUp</legend>
+		<legend>SignUp</legend>
 
 		<!-- Username  text-->
 		<div class="form-group">
@@ -24,6 +24,11 @@
 			<label class="col-md-1 control-label" for="textinput"><!-- Email --></label>
 			<div class="col-md-10">
 				<input id="textinput" name="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Email" class="form-control input-md" required=""> 
+				@error('email')
+				<div class="text-danger">
+					Email is already been taken
+				</div>
+				@enderror
 			</div>
 		</div>
 
@@ -72,7 +77,7 @@
 		<div class="form-group">
 			<label class="col-md-1 control-label"></label>
 			<div class="col-md-10">
-				<p style="color: white;">Already have an account?&ensp;<a href="{{ route('login') }}" style="text-decoration: underline; color: #444FDA;">Log In</a></p>
+				<p>Already have an account?&ensp;<a href="{{ route('login') }}" style="text-decoration: underline; color: #444FDA;">Log In</a></p>
 			</div>
 		</div>
 	</fieldset>

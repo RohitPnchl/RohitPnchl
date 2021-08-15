@@ -1,14 +1,15 @@
 @extends('layouts.main')
 
 @section('content')
+<section class="breadcrumb-area" style="background-image: url(images/login-bg.png);">
+    <div class="container-fluid text-center">
+        <h1>PRODUCTS</h1>
+    </div>
+</section>
+
 <!--Start contact v1 area-->
 <section class="contact-v2-area products-title">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2><strong>PRODUCTS</strong></h2>
-            </div>
-        </div><br>
         @if (Session::has('user'))
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -30,11 +31,13 @@
         </div><br>
         @endif
         <div class="row">
-            @foreach($products as $product)
+            @foreach($products as $key => $product)
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                    <div class="contact-info">
-                        <div class="image-border">
-                            <a href="javascript:void(0)"><img src="{{ asset('storage'.$product->path) }}" class="product-image"></a>
+                    <div class="contact-info single-service-item">
+                        <div class="image-border img-holder" data-toggle="modal" data-target="#myModal">
+                            <a href="#myGallery" data-slide-to="{{ $key }}">
+                                <img src="{{ asset('storage'.$product->path) }}" class="product-image img-thumbnail">
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -43,4 +46,5 @@
     </div>
 </section>
 <!--End contact v1 area-->
+@include('steel-works.image-view')
 @endsection
