@@ -627,21 +627,7 @@
 </section>
 <!--Start latest project area-->
 <!--End latest project area-->
-<!--Start slogan area-->
-<section class="slogan-area" style="background-image:url(images/resources/slogan.html);">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="slogan">
-          <h2>
-            <em>We do customize any design or pattern of your choice...</em>
-          </h2>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!--End slogan areaThe Studio Of Railings & Doorways , you can work with us from anywhere!-->
+
 <!--End service area-->
 {{--<section class="working-area">
   <div class="container">
