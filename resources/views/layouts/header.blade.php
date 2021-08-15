@@ -49,7 +49,7 @@
                             <ul class="navigation clearfix">
                                 <li class="{{ (Request::segment(1) == '') ? 'active' : '' }}"><a href="{{ route('index') }}">Home</a></li>
                                 <li class="{{ (Request::segment(1) == 'products') ? 'active' : '' }}"><a href="{{ route('products') }}">Our Products</a></li>
-                                <li class="{{ (Request::segment(1) == 'about') ? 'active' : '' }}"><a href="{{ route('about') }}">About Us</a></li>
+                                {{--<li class="{{ (Request::segment(1) == 'about') ? 'active' : '' }}"><a href="{{ route('about') }}">About Us</a></li>--}}
                                 <li class="{{ (Request::segment(1) == 'contact-us') ? 'active' : '' }}"><a href="{{ route('contact') }}">Contact Us</a></li>
                                 @if (Session::has('user'))
                                 <li class="{{ (Request::segment(1) == 'log-out') ? 'active' : '' }}"><a href="{{ route('log-out') }}">Log Out</a></li>

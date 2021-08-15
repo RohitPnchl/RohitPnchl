@@ -16,12 +16,21 @@ class DefaultController extends Controller
      */
     public function index(Request $request)
     {
-        $user = User::where('email', $request->email)->where('password', md5($request->password))->first();
-        if ($user) {
-            Session::put('user', $user);
+        if ($request->login) {
+            $request->validate([
+                'email' => 'required',
+                'password' => 'required'
+            ]);
+            $user = User::where('email', $request->email)->where('password', md5($request->password))->first();
+            if ($user) {
+                Session::put('user', $user);
+                return view('steel-works.index', compact('user'));
+            } else {
+                return back()->with('error', 'Login failed!');
+            }
         }
 
-        return view('steel-works.index', compact('user'));
+        return view('steel-works.index');
     }
 
     /**
