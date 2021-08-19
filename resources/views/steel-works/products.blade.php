@@ -31,9 +31,12 @@
         </div><br>
         @endif
         <div class="row">
-            @foreach($products as $key => $product)
+            @forelse($products as $key => $product)
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
                     <div class="contact-info single-service-item">
+                        @if (Session::has('user'))
+                            <a href="{{ route('delete.image', ['id' => $product->id]) }}" class="text-danger"><i class="fa fa-trash"></i></a>
+                        @endif
                         <div class="image-border img-holder" data-toggle="modal" data-target="#myModal">
                             <a href="#myGallery" data-slide-to="{{ $key }}">
                                 <img src="{{ asset('storage'.$product->path) }}" class="product-image img-thumbnail">
@@ -41,7 +44,11 @@
                         </div>
                     </div>
                 </div>
-            @endforeach
+            @empty
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                    No Products found
+                </div>
+            @endforelse
         </div>
     </div>
 </section>

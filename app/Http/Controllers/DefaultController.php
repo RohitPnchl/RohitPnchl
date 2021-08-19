@@ -81,4 +81,11 @@ class DefaultController extends Controller
     {
         return view('steel-works.about');
     }
+
+    public function destroy($id)
+    {
+        Products::find($id)->delete();
+
+        return back();
+    }
 }
