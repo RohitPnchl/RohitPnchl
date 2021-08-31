@@ -315,7 +315,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 9999;
+  z-index: 1040;
   background: #FFFFFF;
   animation-name: menu_sticky;
   animation-duration: 0.60s;
@@ -722,6 +722,7 @@ padding: 30px 15px 29px 0;  position: relative;
 .main-menu .navigation > li:hover > a, .main-menu .navigation > li.active > a {
   color: #595dd7;
   opacity: 1;
+  text-decoration-line: none;
 }
 .main-menu .navigation > li > ul {
   position: absolute;
@@ -1052,7 +1053,7 @@ padding: 30px 15px 29px 0;  position: relative;
   position: relative; 
   text-align: center;
   background-color: white;
-  padding: 15px;
+  padding: 10px;
 }
 .single-service-item .img-holder img{
   -webkit-transform: scale(1);
@@ -3046,7 +3047,7 @@ padding: 30px 15px 29px 0;  position: relative;
     width: 100% !important;
   }
   .modal-body {
-    height: 500px !important;
+    height: 530px !important;
   }
 
   .modal-content {
@@ -3106,4 +3107,8 @@ padding: 30px 15px 29px 0;  position: relative;
   .main-menu .navbar-header {
     margin-top: 10px;
   }
+}
+
+.footer-area div a {
+  text-decoration: none;
 }

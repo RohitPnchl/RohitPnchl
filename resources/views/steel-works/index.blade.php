@@ -25,7 +25,7 @@
         </div>
 
         <div class="top-left">
-            Prem<br>Engineering Work!
+            Prem<br>Steel Works!
         </div>
     </div>
 
@@ -47,6 +47,7 @@
       <h2>Welcome to
         <span>Prem Engineering Works</span>
       </h2>
+      <strong style="font-size: 20px; color: #252525;">(Prem Steel)</strong>
       {{--<span class="decor">
       </span>--}}
     </div>
@@ -58,11 +59,6 @@
           <div class="bottom">
             <div class="button">
               <a class="thm-btn bg-cl-1" href="{{ route('contact') }}">Contact Us</a>
-            </div>
-            <div class="title">
-              <h3>Request Quote:
-                <span>premengineeringwork.com</span>
-              </h3>
             </div>
           </div>
         </div>
@@ -232,20 +228,7 @@
                     </div>
                 </div>
             </div>
-            <!--End single item-->
-            <!--Start single item-->
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="single-item">
-                    <div class="icon-holder">
-                        <span class="flaticon-24-hours"></span>
-                    </div>
-                    <div class="text-holder">
-                        <h3><strong>24/7 Customer Support</strong></h3>
-                        <p>whenever and wherever you need our support you can contact our 24/7 customer support team.</p>
-                    </div>
-                </div>
-            </div>
-            <!--End single item-->                          
+            <!--End single item-->                       
         </div>
     </div>    
 </section>

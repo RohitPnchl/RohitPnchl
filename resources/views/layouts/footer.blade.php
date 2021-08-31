@@ -20,42 +20,42 @@
                     </div>
                     <ul class="footer-contact-info">
                         <li> 
-                            <a href="index-2.html">
+                            <a href="javascript:void(0)">
                                 <div class="text-holder">
                                     <p>  Stainless Steel Railings </p>
                                 </div>
                             </a>  
                         </li>
                         <li>
-                            <a href="about.html">
+                            <a href="javascript:void(0)">
                                 <div class="text-holder">
                                     <p> Stainless Steel Gates </p>
                                 </div>
                             </a>
                         </li>
                         <li>
-                            <a href="projects.html">
+                            <a href="javascript:void(0)">
                                 <div class="text-holder">
                                     <p> Glass Railing </p>
                                 </div>
                             </a>  
                         </li>
                         <li>
-                            <a href="enquiry1.html">
+                            <a href="javascript:void(0)">
                                 <div class="text-holder">
                                     <p>Wrought Iron Railings & Doorways </p>
                                 </div>
                             </a>
                         </li>
                         <li>
-                            <a href="contact.html">
+                            <a href="javascript:void(0)">
                                 <div class="text-holder">
                                     <p>Wrought Iron Staircase Railing </p>
                                 </div>
                             </a>
                         </li>
                         <li>
-                            <a href="https://vaishnusteelworks.com/webmail" target="_blank">
+                            <a href="javascript:void(0)">
                                 <div class="text-holder">
                                     <p>Aluminium Gate </p>
                                 </div>
@@ -132,7 +132,11 @@
                                 <i class="fa fa-phone contact-icons-footer"></i>
                             </div>
                             <div class="text-holder" style="font-size:14px;">
-                                <p style="font-size:14px;">9466096959 - Mr. Satish Panchal <!--(CEO)--><br />9466389976 - Mr. Devinder Panchal  <!--(MD)--></p>
+                                <p style="font-size:14px;">
+                                    <a href="tel:9466096959" style="color:#FFFFFF;">9466096959</a> - Mr. Satish Kumar <!--(CEO)--><br />
+                                    <a href="tel:9466389976" style="color:#FFFFFF;">9466389976</a> - Mr. Devinder Kumar  <!--(MD)--><br />
+                                    Mr. Ravinder Kumar
+                                </p>
                             </div>
                         </li>
                         <li>
