@@ -101,6 +101,21 @@
       <h2>Our Products</h2>
     </div>
     <div class="row">
+      <!--Start single service item-->
+      <div class="col-md-4 col-sm-4 col-xs-12">
+        <div class="single-service-item">
+          <div class="img-holder">
+            <img src="{{ asset('images/products/aluminium-gate.jpeg') }}">
+          </div>
+          <div class="text-holder">
+            <div class="view-more-products">
+              <h3>Aluminium Profile Gate</h3><a href="{{ route('products', ['type' => 'aluminium-profile-gate']) }}" class="btn btn-primary btn-sm view-btn">View more</a>
+            </div>
+            <p>All type of Aluminium Profile Gates are available</p>
+          </div>
+        </div>
+      </div>
+      <!--End single service item-->
       <!--Start single service item style="height:300px;"-->
       <div class="col-md-4 col-sm-4 col-xs-12">
         <div class="single-service-item">
@@ -127,21 +142,6 @@
               <h3>Steel Gate</h3><a href="{{ route('products', ['type' => 'steel-gate']) }}" class="btn btn-primary btn-sm view-btn">View more</a>
             </div>
             <p>All type of Steel Gates are available</p>
-          </div>
-        </div>
-      </div>
-      <!--End single service item-->
-      <!--Start single service item-->
-      <div class="col-md-4 col-sm-4 col-xs-12">
-        <div class="single-service-item">
-          <div class="img-holder">
-            <img src="{{ asset('images/products/aluminium-gate.jpeg') }}">
-          </div>
-          <div class="text-holder">
-            <div class="view-more-products">
-              <h3>Aluminium Profile Gate</h3><a href="{{ route('products', ['type' => 'aluminium-profile-gate']) }}" class="btn btn-primary btn-sm view-btn">View more</a>
-            </div>
-            <p>All type of Aluminium Profile Gates are available</p>
           </div>
         </div>
       </div>
@@ -184,9 +184,9 @@
           </div>
           <div class="text-holder">
             <div class="view-more-products">
-              <h3>Stair</h3><a href="{{ route('products', ['type' => 'stair']) }}" class="btn btn-primary btn-sm view-btn">View more</a>
+              <h3>Other Products</h3><a href="{{ route('products', ['type' => 'other']) }}" class="btn btn-primary btn-sm view-btn">View more</a>
             </div>
-            <p>All type of Stairs are available</p>
+            <p>All type of other steel products are available</p>
           </div>
         </div>
       </div>

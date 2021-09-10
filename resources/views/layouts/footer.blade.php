@@ -20,9 +20,9 @@
                     </div>
                     <ul class="footer-contact-info">
                         <li>
-                            <a href="{{ route('products', ['type' => 'stair']) }}">
+                            <a href="{{ route('products', ['type' => 'aluminium-profile-gate']) }}">
                                 <div class="text-holder">
-                                    <p>Stairs </p>
+                                    <p>  Aluminium Profile Gate </p>
                                 </div>
                             </a>
                         </li>
@@ -55,9 +55,9 @@
                             </a>
                         </li>
                         <li>
-                            <a href="{{ route('products', ['type' => 'aluminium-profile-gate']) }}">
+                            <a href="{{ route('products', ['type' => 'other']) }}">
                                 <div class="text-holder">
-                                    <p>  Aluminium Profile Gate </p>
+                                    <p>Other Products </p>
                                 </div>
                             </a>
                         </li>
