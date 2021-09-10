@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', 'DefaultController@index')->name('index');
-Route::get('/products', 'DefaultController@products')->name('products');
+Route::get('/products/{type}', 'DefaultController@products')->name('products');
 Route::get('/contact-us', 'DefaultController@contact')->name('contact');
 Route::post('/image/save', 'DefaultController@imageSave')->name('save.image');
 Route::get('/image/delete/{id}', 'DefaultController@destroy')->name('delete.image');

@@ -108,10 +108,10 @@
             <img src="{{ asset('images/products/img12.jpg') }}">
             </div>
           <div class="text-holder">
-            <a href="javascript:void(0)">
-              <h3>Gateway</h3>
-            </a>
-            <p>All type of Steel Gate are available</p>
+            <div class="view-more-products">
+              <h3>Iron Gate</h3><a href="{{ route('products', ['type' => 'iron-gate']) }}" class="btn btn-primary btn-sm view-btn">View more</a>
+            </div>
+            <p>All type of Iron Gates are available</p>
           </div>
         </div>
       </div>
@@ -120,13 +120,13 @@
       <div class="col-md-4 col-sm-4 col-xs-12">
         <div class="single-service-item">
           <div class="img-holder">
-            <img src="{{ asset('images/products/img1.jpg') }}">
+            <img src="{{ asset('images/products/steel-gate.jpeg') }}">
           </div>
           <div class="text-holder">
-            <a href="javascript:void(0)">
-              <h3>Staircase Railing</h3>
-            </a>
-            <p>All type of Steel Staircase Railing are available</p>
+            <div class="view-more-products">
+              <h3>Steel Gate</h3><a href="{{ route('products', ['type' => 'steel-gate']) }}" class="btn btn-primary btn-sm view-btn">View more</a>
+            </div>
+            <p>All type of Steel Gates are available</p>
           </div>
         </div>
       </div>
@@ -135,22 +135,62 @@
       <div class="col-md-4 col-sm-4 col-xs-12">
         <div class="single-service-item">
           <div class="img-holder">
-            <img src="{{ asset('images/products/img14.jpg') }}">
+            <img src="{{ asset('images/products/aluminium-gate.jpeg') }}">
           </div>
           <div class="text-holder">
-            <a href="javascript:void(0)">
-              <h3>Railing</h3>
-            </a>
-            <p>All type of Steel Wall Railing are available</p>
+            <div class="view-more-products">
+              <h3>Aluminium Profile Gate</h3><a href="{{ route('products', ['type' => 'aluminium-profile-gate']) }}" class="btn btn-primary btn-sm view-btn">View more</a>
+            </div>
+            <p>All type of Aluminium Profile Gates are available</p>
           </div>
         </div>
       </div>
       <!--End single service item-->
-    </div>
-    <div class="row">
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-            <a class="thm-btn bg-cl-1" href="{{ route('products') }}" style="padding: 17px 30px 15px;">All Products</a>
+      <!--Start single service item-->
+      <div class="col-md-4 col-sm-4 col-xs-12">
+        <div class="single-service-item">
+          <div class="img-holder">
+            <img src="{{ asset('images/products/stair-railing.jpeg') }}">
+          </div>
+          <div class="text-holder">
+            <div class="view-more-products">
+              <h3>Stair Railing</h3><a href="{{ route('products', ['type' => 'stair-railing']) }}" class="btn btn-primary btn-sm view-btn">View more</a>
+            </div>
+            <p>All type of Stair Railing are available</p>
+          </div>
         </div>
+      </div>
+      <!--End single service item-->
+      <!--Start single service item-->
+      <div class="col-md-4 col-sm-4 col-xs-12">
+        <div class="single-service-item">
+          <div class="img-holder">
+            <img src="{{ asset('images/products/front-railing.jpeg') }}">
+          </div>
+          <div class="text-holder">
+            <div class="view-more-products">
+              <h3>Front Railing</h3><a href="{{ route('products', ['type' => 'front-railing']) }}" class="btn btn-primary btn-sm view-btn">View more</a>
+            </div>
+            <p>All type of Front Railing are available</p>
+          </div>
+        </div>
+      </div>
+      <!--End single service item-->
+      <!--Start single service item-->
+      <div class="col-md-4 col-sm-4 col-xs-12">
+        <div class="single-service-item">
+          <div class="img-holder">
+            <img src="{{ asset('images/products/stair.jpeg') }}">
+          </div>
+          <div class="text-holder">
+            <div class="view-more-products">
+              <h3>Stair</h3><a href="{{ route('products', ['type' => 'stair']) }}" class="btn btn-primary btn-sm view-btn">View more</a>
+            </div>
+            <p>All type of Stairs are available</p>
+          </div>
+        </div>
+      </div>
+      <!--End single service item-->
     </div>
   </div>
 </section>

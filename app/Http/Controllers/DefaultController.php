@@ -38,11 +38,11 @@ class DefaultController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function products()
+    public function products($type)
     {
-        $products = Products::orderBy('id', 'desc')->get();
+        $products = Products::where('type', $type)->orderBy('id', 'desc')->get();
 
-        return view('steel-works.products', compact('products'));
+        return view('steel-works.products', compact('products', 'type'));
     }
 
     /**
@@ -71,10 +71,11 @@ class DefaultController extends Controller
         $product = Products::create([
             'product'       => $doc_name,
             'product_name'  => $filename,
-            'path'          => '/products/'. $filename
+            'path'          => '/products/'. $filename,
+            'type'          => $request->type
         ]);
 
-        return redirect()->route('products');
+        return redirect()->route('products', ['type' => $request->type]);
     }
 
     public function about()

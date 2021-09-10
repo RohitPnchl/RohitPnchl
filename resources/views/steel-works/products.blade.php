@@ -15,6 +15,7 @@
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <form action="{{ route('save.image') }}" method="post" enctype="multipart/form-data">
                     <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                    <input type="hidden" name="type" value="{{ $type }}">
                     <div class="form-group">
                         <div class="col-lg-2">
                             <label class="control-label">Upload photo</label>
