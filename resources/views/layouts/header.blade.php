@@ -52,7 +52,7 @@
                                             <li class="sub-menu-li"><a href="{{ route('products', ['type' => 'steel-gate']) }}" class="sub-menu">Steel Gate</a></li>
                                             <li class="sub-menu-li"><a href="{{ route('products', ['type' => 'stair-railing']) }}" class="sub-menu">Stair Railing</a></li>
                                             <li class="sub-menu-li"><a href="{{ route('products', ['type' => 'front-railing']) }}" class="sub-menu">Front Railing</a></li>
-                                            <li class="sub-menu-li"><a href="{{ route('products', ['type' => 'stair']) }}" class="sub-menu">Stair</a></li>
+                                            <li class="sub-menu-li"><a href="{{ route('products', ['type' => 'other']) }}" class="sub-menu">Other Products</a></li>
                                         </ul>
                                     </li>
                                     {{--<li class="{{ (Request::segment(1) == 'about') ? 'active' : '' }}"><a href="{{ route('about') }}">About Us</a></li>--}}
