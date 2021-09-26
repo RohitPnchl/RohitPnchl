@@ -8,7 +8,7 @@
           {{--<button type="button" onclick="zoomin()"> Zoom In</button>
           <button type="button" onclick="zoomout()"> Zoom Out</button>--}}
         </div>
-        <button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
+        <button type="button" class="close" data-dismiss="modal" title="Close"> <i class="fa fa-times"></i></button>
       </div>
       <div class="modal-body">
 

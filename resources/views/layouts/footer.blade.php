@@ -7,7 +7,7 @@
                 <div class="single-footer-widget pd-bottom">
                     <div class="footer-logo" align="center">
                         <a href="{{ route('index') }}">
-                          <img src="images/new-logo.png" width="143" height="137">
+                          <img src="{{ asset('images/new-logo.png') }}" width="143" height="137">
                         </a>
                     </div>
                 </div>
@@ -19,45 +19,45 @@
                         <h3>Products</h3>
                     </div>
                     <ul class="footer-contact-info">
-                        <li> 
-                            <a href="index-2.html">
+                        <li>
+                            <a href="{{ route('products', ['type' => 'stair']) }}">
                                 <div class="text-holder">
-                                    <p>  Stainless Steel Railings </p>
+                                    <p>Stairs </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ route('products', ['type' => 'iron-gate']) }}">
+                                <div class="text-holder">
+                                    <p> Iron Gate </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ route('products', ['type' => 'steel-gate']) }}">
+                                <div class="text-holder">
+                                    <p> Steel Gate </p>
                                 </div>
                             </a>  
                         </li>
                         <li>
-                            <a href="about.html">
+                            <a href="{{ route('products', ['type' => 'stair-railing']) }}">
                                 <div class="text-holder">
-                                    <p> Stainless Steel Gates </p>
+                                    <p>Stair Railing </p>
                                 </div>
                             </a>
                         </li>
                         <li>
-                            <a href="projects.html">
+                            <a href="{{ route('products', ['type' => 'front-railing']) }}">
                                 <div class="text-holder">
-                                    <p> Glass Railing </p>
-                                </div>
-                            </a>  
-                        </li>
-                        <li>
-                            <a href="enquiry1.html">
-                                <div class="text-holder">
-                                    <p>Wrought Iron Railings & Doorways </p>
+                                    <p>Front Railing </p>
                                 </div>
                             </a>
                         </li>
                         <li>
-                            <a href="contact.html">
+                            <a href="{{ route('products', ['type' => 'aluminium-profile-gate']) }}">
                                 <div class="text-holder">
-                                    <p>Wrought Iron Staircase Railing </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://vaishnusteelworks.com/webmail" target="_blank">
-                                <div class="text-holder">
-                                    <p>Aluminium Gate </p>
+                                    <p>  Aluminium Profile Gate </p>
                                 </div>
                             </a>
                         </li>
@@ -73,29 +73,22 @@
                     </div>
                     <ul class="footer-contact-info">
                         <li style=" font-size:13px;">
-                            <a href="https://www.facebook.com/" target="_blank" style="color:#FFFFFF; ">
-                                <img src="images/fb.png" />
+                            <a href="javascript:void(0)" target="_blank" style="color:#FFFFFF; ">
+                                <img src="{{ asset('images/fb.png') }}" />
                                 Facebook
                             </a>
                         </li>
 
                         <li style=" font-size:13px;">
-                            <a href="https://www.instagram.com/" target="_blank" style="color:#FFFFFF; ">
-                                <img src="images/in.png" />
+                            <a href="javascript:void(0)" target="_blank" style="color:#FFFFFF; ">
+                                <img src="{{ asset('images/in.png') }}" />
                                 Instagram
                             </a>
                         </li>
 
                         <li style="font-size:13px;">
                             <a href="javascript:void(0)" target="_blank" style="color:#FFFFFF; ">
-                                <img src="images/g.png" />
-                                Google
-                            </a>
-                        </li>
-
-                        <li style="font-size:13px;">
-                            <a href="javascript:void(0)" target="_blank" style="color:#FFFFFF; ">
-                                <img src="images/764939_media_social_square_whatsapp_icon.png" width="23px"  border="0"/>
+                                <img src="{{ asset('images/764939_media_social_square_whatsapp_icon.png') }}" width="23px"  border="0"/>
                                 Whatsapp
                             </a>
                         </li>
@@ -132,7 +125,11 @@
                                 <i class="fa fa-phone contact-icons-footer"></i>
                             </div>
                             <div class="text-holder" style="font-size:14px;">
-                                <p style="font-size:14px;">9466096959 - Mr. Satish Panchal <!--(CEO)--><br />9466389976 - Mr. Devinder Panchal  <!--(MD)--></p>
+                                <p style="font-size:14px;">
+                                    <a href="tel:9466096959" style="color:#FFFFFF;">9466096959</a> - Mr. Satish Kumar <!--(CEO)--><br />
+                                    <a href="tel:9466389976" style="color:#FFFFFF;">9466389976</a> - Mr. Devinder Kumar  <!--(MD)--><br />
+                                    Mr. Ravinder Kumar
+                                </p>
                             </div>
                         </li>
                         <li>
